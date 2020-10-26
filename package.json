@@ -5,7 +5,12 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "start": "node dist\\main",
+    "build": "npx webpack"
+  },
   "dependencies": {
+    "moment": "^2.29.1",
     "webpack": "^5.2.0"
   },
   "devDependencies": {
